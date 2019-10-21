@@ -27,5 +27,31 @@ public class Main
 
         System.out.println("Median: "+median);
 
+        //Return ascii code
+        System.out.println(cad1.codePointAt(2));
+        //Return ascii code before index
+        System.out.println(cad1.codePointBefore(2));
+        //
+        System.out.println(cad1.codePointCount(1,7));
+        //Compare cads
+        System.out.println(cad1.compareTo(cad2));
+        //
+        System.out.println(cad1.equals(cad2));
+        //
+        System.out.println(cad1.concat(cad2));
+        //
+        System.out.println(cad1.contains("Lorem"));
+        //
+        System.out.println(String.valueOf(20));
+        //
+        System.out.println(cad1.endsWith("laborum."));
+        //
+        System.out.println(cad2.trim()+cad2.trim());
+        //
+        System.out.println(cad1.indexOf('s')); //Non greedy
+        //
+        System.out.println(cad1.lastIndexOf('s')); //Greedy
+        //
+        System.out.println(cad1.length());
     }
 }
